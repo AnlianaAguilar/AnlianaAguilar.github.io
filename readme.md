@@ -1,0 +1,1 @@
+Tider Pet es una aplicación dirigida a los amantes de mascotas, en ella puedes encontrar la media naraja o amigos para los pelidos del hogar, adpciones, tienda donde encontraras los mejores productos para los amigos de 4 patas y servicios.
