@@ -160,10 +160,17 @@ a{
   .articulos{
     flex-direction: column;
   }
-}
-
-@media all and (max-width: 600px){
+  span{
+    display: none;
+  }  
+  
   .publicidades{
     flex-direction: column;
   }
+
+  .nav{
+    display: flex;
+    flex-flow: row nowrap;
+  }
 }
+
