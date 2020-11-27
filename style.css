@@ -1,0 +1,169 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; 
+}
+
+.father{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+a{
+  text-decoration: none;
+}
+
+  .margen{
+    padding: 0 10px;
+  }
+  .Header{
+    display: flex;
+    flex-flow: column nowrap;
+
+  }
+
+    .menu{
+      background: rgba(180, 211, 252, 0.966);
+      display: flex;
+      flex-flow: row nowrap;
+      height: 80px;
+      align-items: center;
+      border-bottom: 1px solid white;
+    }
+
+      .Logo{
+        flex: 1 1 auto;
+      }
+
+        .imgLogo{
+          width: 200px;
+        }
+
+      .nav{
+        flex: 5 1 auto;
+        display: contents;
+      }
+
+        .nav a{
+          color: rgb(68, 64, 64);
+          padding: 20px;
+        }
+
+        .nav a:hover{
+          color:white
+        } 
+
+  .section{
+    background: #f7f7f7;
+    display: flex;    
+  }
+    .publicidades{
+      flex: 1 1 auto; 
+      margin: 10px 5px 10px 0;
+    }
+
+    h4{
+      background:rgb(68, 64, 64);;
+      color: white;
+      padding: 10px;
+      text-transform: uppercase;
+    }
+
+      .imgpublicidades{
+        width: 100%;
+      }
+
+      .publicidad{
+        flex: 1 1 40%;
+      }
+
+    .articulos{
+      background: #f7f7f7;;
+      flex: 2 1 auto;
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+      .article{
+        color: rgb(68, 64, 64);
+        font-size: 13px;
+        letter-spacing: 1;
+        flex: 1 1 45%;
+        margin: 10px 10px 0px 0px;
+        background: rgba(180, 211, 252, 0.966);
+      }
+
+      .article a{
+        color: #fff;
+        font-size: 13px;
+        padding: 10px ;
+        background:rgb(68, 64, 64);
+        margin: 10px 0;
+        display: inline-block;
+      }
+
+      .article a:hover{
+        background:#546cc3 ;
+      }
+
+      h3{
+        color: #000;
+        font-size: 13px;
+        padding: 10px 0;
+        margin-top: -80px;
+      }
+
+
+        .imgArticle{
+          width: 100%;
+        }
+
+  .footer{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+    .pie{
+      text-align: center;
+    }
+
+    .pie a{
+      color: #fff;
+      font-size: 30px;
+      padding: 10px;
+
+    }
+
+@media all and (max-width: 800px){
+
+  .section{
+    flex-direction: column;
+  }
+
+  .menu{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .publicidades{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+  }  
+}
+
+@media all and (max-width: 600px){
+
+  .articulos{
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 600px){
+  .publicidades{
+    flex-direction: column;
+  }
+}
